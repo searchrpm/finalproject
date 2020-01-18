@@ -1,6 +1,7 @@
 import os
 import numpy as np
-from flask import Flask, request, jsonify
+#from flask import Flask, request, jsonify
+from flask import Flask, jsonify, render_template
 import matplotlib.pyplot as plt
 from keras.applications.vgg19 import (
     VGG19, preprocess_input, decode_predictions)
